@@ -1,20 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='EasyPost-Fulfillment',
+    name='fulfillment',
     version='1.0',
-    packages=[
-        'fulfillment',
-        'fulfillment.ASN',
-        'fulfillment.core',
-        'fulfillment.Order',
-        'fulfillment.Product',
-        'fulfillment.Inventory',
-        'fulfillment.Warehouse',
-        'fulfillment.OrderReturn',
-        'fulfillment.SerialNumber',
-        'fulfillment.InboundPackage'
-              ],
+    packages=find_packages(),
     url='',
     license='MIT License',
     author='Tyler Huff',
