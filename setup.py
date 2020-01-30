@@ -4,6 +4,7 @@ setup(
     name='fulfillment',
     version='1.0',
     packages=find_packages(),
+    namespace_packages=['EPFulfillment'],
     url='',
     license='MIT License',
     author='Tyler Huff',

@@ -1,2 +1,5 @@
 .DS_Store
 .vscode
+tests/pytest.ini
+.pytest_cache
+__pycache__
