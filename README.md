@@ -2,7 +2,7 @@
 
 Python client library for the EasyPost Fulfillment API.
 
-*NOTE: This client library is not maintained or supported by EasyPost and is deprecated*.
+***NOTE:** This client library is not maintained or supported by EasyPost. In additioin, the EasyPost Fulfillment API and associated endpoints are deprecated*.
 
 ## Install
 
@@ -12,7 +12,7 @@ Python client library for the EasyPost Fulfillment API.
 git clone https://github.com/Justintime50/easypost-fulfillment-python.git
 ```
 
-# Import the Project
+### Import the Project
 
 ```bash
 import fulfillment
@@ -70,4 +70,6 @@ fulfillment.Order.delete('order_123456789abcdefghijklmnopqrstuvwxyz')
 
 ## Documentation
 
-Up-to-date documentation is available at: [https://easypost-fulfillment.zendesk.com/hc/en-us/articles/360026117852-API-Integration-Official-Documentation](https://easypost-fulfillment.zendesk.com/hc/en-us/articles/360026117852-API-Integration-Official-Documentation).
+Up-to-date documentation is available here:
+
+[https://easypost-fulfillment.zendesk.com/hc/en-us/articles/360026117852-API-Integration-Official-Documentation](https://easypost-fulfillment.zendesk.com/hc/en-us/articles/360026117852-API-Integration-Official-Documentation).
