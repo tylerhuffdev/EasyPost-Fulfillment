@@ -8,11 +8,9 @@ base_url = 'https://api.easypost.com/fulfillment/vendor/v2/'
 Headers = {'User-Agent': 'EP Fulfillment Python CL',
            'Content-Type': 'application/json'}
 
-
 @dataclass(frozen=True)
 class Debug:
     debug: bool
-
 
 def debug(response):
     if Debug == True:
@@ -20,12 +18,10 @@ def debug(response):
     else:
         pass
 
-
 # stores user's api key
 @dataclass
 class api_key:
     api_key: str
-
 
 # http methods for api
 class Resource(api_key):
