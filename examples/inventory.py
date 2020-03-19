@@ -7,7 +7,7 @@ fulfillment.core.Debug = True
 fulfillment.Inventory.retrieve(
     'prod_123456789abcdefghijklmnopqrstuvwxyz',
     'prod_123456789abcdefghijklmnopqrstuvwxyz'
-    )
+)
 
 fulfillment.Product.retrieveAll(
     options={

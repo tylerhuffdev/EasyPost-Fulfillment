@@ -11,6 +11,6 @@ setup(
     license='MIT License',
     author='Tyler Huff',
     author_email='support@easypost.com',
-    description='EasyPost Fulfillment Client Library',
+    description='EasyPost Fulfillment Python Client Library',
     install_requires=['requests']
 )
